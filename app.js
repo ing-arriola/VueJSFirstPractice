@@ -2,7 +2,8 @@ new Vue({
     el:'#app',
     data:{
         greeting:'Hello World!!',
-        link:'https://ingjaimearriola.blogspot.com/'
+        link:'https://ingjaimearriola.blogspot.com/',
+        dynamicText:"Input a text in the input to change this"
     },
     methods:{
         sayHello:function(){
@@ -11,6 +12,9 @@ new Vue({
         },
         renderLink:function(){
             return '<a href="https://github.com/ing-arriola">Check My Github Profile</a>'
+        },
+        changeText:function(e){
+            this.dynamicText=e.target.value
         }
     }
 
