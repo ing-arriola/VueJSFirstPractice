@@ -1,7 +1,8 @@
 new Vue({
     el:'#app',
     data:{
-        greeting:'Hello World!!'
+        greeting:'Hello World!!',
+        link:'https://ingjaimearriola.blogspot.com/'
     },
     methods:{
         sayHello:function(){
