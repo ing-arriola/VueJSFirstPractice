@@ -1,9 +1,10 @@
 new Vue({
     el:'#app',
     data:{
-        greeting:'Hello World!!',
+        greeting:'Hello World From VueJs!!',
         link:'https://ingjaimearriola.blogspot.com/',
-        dynamicText:"Input a text in the input to change this"
+        dynamicText:"Input a text",
+        image:"JaimeArriola.jpg"
     },
     methods:{
         sayHello:function(){

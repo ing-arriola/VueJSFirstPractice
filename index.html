@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="app">
         
         <h1 v-once>{{ greeting }}</h1>
         <p >{{ sayHello() }}</p>
+
+        <img v-bind:src="image" style="width:379px;height:298px">
+        <br>
         <a v-bind:href="link">Visit my blog</a>
 
         <p v-html="renderLink()"></p>
